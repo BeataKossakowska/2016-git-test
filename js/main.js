@@ -19,5 +19,10 @@ $(function () {
     })
 });
 
-
+function addPatient(patient) {
+    $("#patients-list")
+        .append(
+        $("<li/>")
+            .text(patient.firstName + " " + patient.lastName)
+        );
 }
