@@ -9,6 +9,7 @@ $(function () {
     var doctorsList = [
         { firstName: "Antoni", lastName: "Kowalski" },
         { firstName: "Andrzej", lastName: "Kowalski" }
+        { firstName: "Andrzej", lastName: "Kowal" }
     ];
     patientsList.forEach(function (patient) {
         addPatient(patient);
