@@ -6,6 +6,10 @@ $(function () {
         { firstName: "Arek", lastName: "Nowakowski" }
     ];
 
+    var doctorsList = [
+        { firstName: "Antoni", lastName: "Kowalski" },
+        { firstName: "Andrzej", lastName: "Kowalski" }
+    ];
     patientsList.forEach(function (patient) {
         addPatient(patient);
     })
