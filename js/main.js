@@ -4,6 +4,9 @@ $(function () {
         { firstName: "Andrzej", lastName: "Kielcz" }
         { firstName: "Aleksander", lastName: "Nowak" }
         { firstName: "Arek", lastName: "Nowakowski" }
+        { firstName: "Adam", lastName: "Nowak" }
+        { firstName: "Adrian", lastName: "Nowakowski" }
+        { firstName: "Antoni", lastName: "Kielcz" }
     ];
 
     var doctorsList = [
