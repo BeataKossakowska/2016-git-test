@@ -8,8 +8,8 @@ $(function () {
 
     var doctorsList = [
         { firstName: "Antoni", lastName: "Kowalski" },
-        { firstName: "Andrzej", lastName: "Kowalski" }
-        { firstName: "Andrzej", lastName: "Kowal" }
+        { firstName: "Andrij", lastName: "Kowalski" }
+        { firstName: "Marcin", lastName: "Kowal" }
     ];
     patientsList.forEach(function (patient) {
         addPatient(patient);
